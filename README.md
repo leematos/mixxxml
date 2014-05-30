@@ -1,5 +1,5 @@
 # SUPER PRE ALPHA
-Mixxxml is still being defined and heavily refined. it may not work at the moment.
+Mixxxml is still being defined and heavily refined. It may not work at the moment.
 
 ---
 ##Mixxxml Syntax
