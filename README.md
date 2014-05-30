@@ -4,7 +4,7 @@ Mixxxml is still being defined and heavily refined. it may not work at the momen
 ---
 ##Mixxxml Syntax
 
-Mixxxml has a very simple syntax that is very intuitive for logically oriented people. Check out the features below:
+Mixxxml has a very simple syntax that is very intuitive for beginners and experts alike. Check out the features below:
 
 ###Tags
 
