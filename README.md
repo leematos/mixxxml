@@ -66,6 +66,10 @@ theming to make templating easier. To set a variable you can use the following s
 this will generate the following XML:
 
     <SetVariable name="something">value</SetVariable>
+    
+To access that variable in the future, you can now use:
+
+    {{something}}
 
 ###Functions
 
