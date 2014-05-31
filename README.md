@@ -67,7 +67,7 @@ this will generate the following XML:
 
     <SetVariable name="something">value</SetVariable>
     
-To access that variable in the future, you can now use:
+To access that variable in the future, you can now use the brace syntax:
 
     {{something}}
 
