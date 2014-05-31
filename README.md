@@ -4,7 +4,7 @@ Mixxxml is still being defined and heavily refined. It may not work at the momen
 ---
 ##Mixxxml Syntax
 
-Mixxxml has a very simple syntax that is very intuitive for beginners and experts alike. Check out the features below:
+Mixxxml has a simple syntax that is intuitive for beginners and experts alike. Check out the features below:
 
 ###Tags
 
@@ -58,16 +58,16 @@ In the above mixxxml code example, you may have noticed something interesting:
 
     {{group}}
 
-This is a variable. This allows you to leverage the new variable features of mixxx 1.12
+This is a mixxxml variable. It allows you to leverage the new variable features of mixxx 1.12
 theming to make templating easier. To set a variable you can use the following syntax:
 
     Set(something): value
 
-this will generate the following XML:
+This will generate the following XML:
 
     <SetVariable name="something">value</SetVariable>
     
-To access that variable in the future, you can now use the brace syntax:
+To access that variable in the future, you can use the brace syntax:
 
     {{something}}
 
@@ -107,11 +107,11 @@ The load function allows you to load sub templates into your skin.
 
     load(template.xml):
 
-will make the following xml:
+This outputs the following xml:
 
     <Template src="skin:template.xml"/>
 
-If you wanted to pass variables into this template you could do the following:
+If you wanted to pass variables into this template you could do it like this:
 
     load(template.xml):
       Set():
